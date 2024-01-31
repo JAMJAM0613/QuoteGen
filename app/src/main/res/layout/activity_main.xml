@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBC3E3"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:id="@+id/quoteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="30sp"
+        android:textAlignment="center"
+        android:paddingTop="150sp"
+        android:textStyle="bold"
+        android:textFontWeight="@integer/material_motion_duration_medium_1"
+        android:background="@drawable/border"
+        android:text="Press the button for a quote!"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Quote"
+        android:layout_below="@id/quoteTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="exit"
+        android:backgroundTint="#FF0000"
+        android:layout_below="@id/generateButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+
+</RelativeLayout>
